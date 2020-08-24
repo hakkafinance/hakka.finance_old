@@ -63,12 +63,18 @@ body{
 
 .nav__links a{
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 12px;
     font-size: 14px;
     font-weight: 600;
     line-height: 3;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+@media(max-width: 320px){
+    .nav__links a{
+        padding: 0 6px 0 6px;
+    }
 }
 
 .nav__links a:hover{
