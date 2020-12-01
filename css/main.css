@@ -126,9 +126,30 @@ body{
     border: solid 2px #ffffff;
     border-radius: 50%;
     box-shadow: 0 0 40px 0 rgba(46, 198, 229, 0.4), 0 0 40px 0 #ffffff, 0 0 80px 0 rgba(255, 166, 196, 0.8), 0 0 60px 0 #ffffff;
-    margin-top: 100px;
+    margin-top: 40px;
 
     z-index: 1;
+}
+
+.supply_area {
+    width: 100%;
+    padding: 0 40px;
+}
+
+.supply{
+    align-items: center;
+    color: #000;
+    background-color: #fff;
+    opacity: 0.6;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: .75rem;
+    height: 2em;
+    line-height: 1.5;
+    padding-left: .75em;
+    padding-right: .75em;
+    white-space: nowrap;
+    margin-top: 60px;
 }
 
 .hero__title{
@@ -392,6 +413,11 @@ body{
 
     .about__img--right{
         bottom: 40px;
+    }
+
+    .supply_area {
+        width: 92%;
+        padding: 0;
     }
 }
 
